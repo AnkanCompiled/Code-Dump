@@ -72,6 +72,7 @@ void displayList(struct Node* head) {
     printf("NULL\n");
 }
 
+// Display the maximum node
 void maximumNode(struct Node* head) {
     struct Node* temp = head;
     if (head == NULL) {
@@ -88,6 +89,7 @@ void maximumNode(struct Node* head) {
     printf("Max Value: %d", max_value);
 }
 
+// Display the minimum node
 void minimumNode(struct Node* head) {
     struct Node* temp = head;
     if (head == NULL) {
